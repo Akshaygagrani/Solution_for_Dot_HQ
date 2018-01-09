@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <style>
+ body {
+  background-image: url("css/background5.jpg");
+  background-repeat: no-repeat;
+  background-size: 1600px 1000px;
+}
+.navbar-brand {
+  height: 120px;
+}
+.navbar {
+      padding-top: 0px;
+      padding-bottom: 0px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 20px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+
+.navbar-nav a{
+  color: white;
+  text-decoration-line: underline;
+}
+.table
+{background-color: lightblue;
+ color:black;
+ border: 5px solid black;
+
+}
+h1
+{
+	color:white;
+}
+
+th, tr{
+	border-bottom: 2px solid black;
+	border-top:2px solid black;
+}
+
+td, th {
+	border-left: 2px solid black;
+}
+input
+{
+	background-color: lightblue;
+    color: black;
+	border:none;
+}
+.btn {
+  color: white;
+  font-size: 15px;
+}
+footer a{
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+}
+ </style>
+
+</head>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+	 <div class="navbar-header">
+        <a class="navbar-brand" href="#"><h3><b>Department of Telecommunication <br>Ministry of Communication</b></h3></a>
+      </div>
+
+        <ul class="nav navbar-nav navbar-right">
+         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Username </a></li>
+		 <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout </a></li>
+		 <li><a href="#"><span class="glyphicon glyphicon-edit"></span> Choose one</a>
+          <div  align="center"id ="button">
+          <a href="3tb.html"><button type="button" class="btn btn-info btn-md ">Sale</button></a>
+          <a href="3tb.html"><button type="button" class="btn btn-info btn-md">Port</button></a>
+         </div></li>
+        </ul>
+   	</div>
+</nav>
+
+<body>
+<br><br>
+  <div class="container">
+   <div class="table-responsive">
+   <table  class="table ">
+    	<tr>
+    	 <th width="4">S.No.</th>
+    	 <th width="120">Name of Customer</th>
+    	 <th width="100">Aadhar Number</th>
+    	 <th width="80">Mobile No.</th>
+    	 <th width="80">New Sim No.</th>
+    	 <th width="60">TSP</th>
+    	 <th width="170">Email Id</th>
+    	 <th width="20">Port/New</th>
+    	 <th width="20">Date of Purchase</th>
+    	</tr>
+
+
+	<tr height="15">
+	 <td>
+	    <div id="name">
+                 <label for="S.No."></label><br>
+            <input type="number" id="S.No."  name="S.No." maxlength="4" required>
+            <br>
+        </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="NameofCustomer"></label><br>
+            <input type="text" id="NameofCustomer"  name="NameofCustomer" maxlength="50" required>
+            <br>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="AadharNumber"></label><br>
+            <input type="number" id="AadharNumber"  name="AadharNumber" size="50" required>
+            <br>
+          </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="MobileNumber"></label><br>
+            <input type="number" id="MobileNumber" name="MobileNumber" size="20" required>
+            <br>
+          </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="NewSimNumber"></label><br>
+            <input type="number" id="NewSimNumber" name="NewSimNumber" size="20" required>
+            <br>
+             </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="TSP"></label><br>
+            <input type="text" id="TSP"  name="TSP" maxlength="50" required>
+            <br>
+	    </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="Emailid"></label><br>
+            <input type="text" id="Emailid"  name="Emailid" maxlength="50" required>
+            <br>
+	    </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="Port/New"></label><br>
+            <input type="text" id="PortorNew" name="PortorNew" maxlength="50" required>
+            <br>
+            </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="DateofPurchase"></label><br>
+            <input type="text" id="DateofPurchase"  name="DateofPurchase" maxlength="50" required>
+            <br>
+            </div>
+	 </td>
+	</tr>
+
+	<tr height="20">
+	 <td>
+	    <div id="name">
+                 <label for="S.No."></label><br>
+            <input type="number" id="S.No." name="S.No." maxlength="4" required>
+            <br>
+        </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="NameofCustomer"></label><br>
+            <input type="text" id="NameofCustomer"  name="NameofCustomer" maxlength="50" required>
+            <br>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="AadharNumber"></label><br>
+            <input type="number" id="AadharNumber"  name="AadharNumber" size="50" required>
+            <br>
+          </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="MobileNumber"></label><br>
+            <input type="number" id="MobileNumber"  name="MobileNumber" size="20" required>
+            <br>
+          </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="NewSimNumber"></label><br>
+            <input type="number" id="NewSimNumber" name="NewSimNumber" size="20" required>
+            <br>
+             </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="TSP"></label><br>
+            <input type="text" id="TSP" name="TSP" maxlength="50" required>
+            <br>
+	    </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="Emailid"></label><br>
+            <input type="text" id="Emailid" name="Emailid" maxlength="50" required>
+            <br>
+	    </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="Port/New"></label><br>
+            <input type="text" id="PortorNew" name="PortorNew" maxlength="50" required>
+            <br>
+            </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="DateofPurchase"></label><br>
+            <input type="text" id="DateofPurchase" name="DateofPurchase" maxlength="50" required>
+            <br>
+            </div>
+	 </td>
+	</tr>
+
+	<tr height="20">
+	 <td>
+	    <div id="name">
+                 <label for="S.No."></label><br>
+            <input type="number" id="S.No." name="S.No." maxlength="4" required>
+            <br>
+        </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="NameofCustomer"></label><br>
+            <input type="text" id="NameofCustomer" name="NameofCustomer" maxlength="50" required>
+            <br>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="AadharNumber"></label><br>
+            <input type="number" id="AadharNumber"  name="AadharNumber" size="50" required>
+            <br>
+          </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="MobileNumber"></label><br>
+            <input type="number" id="MobileNumber" name="MobileNumber" size="20" required>
+            <br>
+          </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="NewSimNumber"></label><br>
+            <input type="number" id="NewSimNumber"  name="NewSimNumber" size="20" required>
+            <br>
+             </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="TSP"></label><br>
+            <input type="text" id="TSP" name="TSP" maxlength="50" required>
+            <br>
+	    </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="Emailid"></label><br>
+            <input type="text" id="Emailid" name="Emailid" maxlength="50" required>
+            <br>
+	    </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="Port/New"></label><br>
+            <input type="text" id="PortorNew" name="PortorNew" maxlength="50" required>
+            <br>
+            </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="DateofPurchase"></label><br>
+            <input type="text" id="DateofPurchase"  name="DateofPurchase" maxlength="50" required>
+            <br>
+            </div>
+	 </td>
+	</tr>
+
+	<tr height="20">
+	 <td>
+	    <div id="name">
+                 <label for="S.No."></label><br>
+            <input type="number" id="S.No." name="S.No." maxlength="4" required>
+            <br>
+        </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="NameofCustomer"></label><br>
+            <input type="text" id="NameofCustomer" name="NameofCustomer" maxlength="50" required>
+            <br>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="AadharNumber"></label><br>
+            <input type="number" id="AadharNumber"  name="AadharNumber" size="50" required>
+            <br>
+          </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="MobileNumber"></label><br>
+            <input type="number" id="MobileNumber" name="MobileNumber" size="20" required>
+            <br>
+          </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="NewSimNumber"></label><br>
+            <input type="number" id="NewSimNumber"  name="NewSimNumber" size="20" required>
+            <br>
+             </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="TSP"></label><br>
+            <input type="text" id="TSP" name="TSP" maxlength="50" required>
+            <br>
+	    </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="Emailid"></label><br>
+            <input type="text" id="Emailid" name="Emailid" maxlength="50" required>
+            <br>
+	    </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="Port/New"></label><br>
+            <input type="text" id="PortorNew" name="PortorNew" maxlength="50" required>
+            <br>
+            </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="DateofPurchase"></label><br>
+            <input type="text" id="DateofPurchase"  name="DateofPurchase" maxlength="50" required>
+            <br>
+            </div>
+	 </td>
+	</tr>
+
+	<tr height="20">
+	 <td>
+	    <div id="name">
+                 <label for="S.No."></label><br>
+            <input type="number" id="S.No." name="S.No." maxlength="4" required>
+            <br>
+        </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="NameofCustomer"></label><br>
+            <input type="text" id="NameofCustomer"  name="NameofCustomer" maxlength="50" required>
+            <br>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="AadharNumber"></label><br>
+            <input type="number" id="AadharNumber"  name="AadharNumber" size="50" required>
+            <br>
+          </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="MobileNumber"></label><br>
+            <input type="number" id="MobileNumber" name="MobileNumber" size="20" required>
+            <br>
+          </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="NewSimNumber"></label><br>
+            <input type="number" id="NewSimNumber"  name="NewSimNumber" size="20" required>
+            <br>
+             </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="TSP"></label><br>
+            <input type="text" id="TSP" name="TSP" maxlength="50" required>
+            <br>
+	    </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="Emailid"></label><br>
+            <input type="text" id="Emailid"  name="Emailid" maxlength="50" required>
+            <br>
+	    </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="Port/New"></label><br>
+            <input type="text" id="PortorNew"  name="PortorNew" maxlength="50" required>
+            <br>
+            </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="DateofPurchase"></label><br>
+            <input type="text" id="DateofPurchase"  name="DateofPurchase" maxlength="50" required>
+            <br>
+            </div>
+	 </td>
+	</tr>
+
+	<tr height="20">
+	 <td>
+	    <div id="name">
+                 <label for="S.No."></label><br>
+            <input type="number" id="S.No." name="S.No." maxlength="4" required>
+            <br>
+        </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="NameofCustomer"></label><br>
+            <input type="text" id="NameofCustomer" name="NameofCustomer" maxlength="50" required>
+            <br>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="AadharNumber"></label><br>
+            <input type="number" id="AadharNumber" name="AadharNumber" size="50" required>
+            <br>
+          </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="MobileNumber"></label><br>
+            <input type="number" id="MobileNumber" name="MobileNumber" size="20" required>
+            <br>
+          </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="NewSimNumber"></label><br>
+            <input type="number" id="NewSimNumber" name="NewSimNumber" size="20" required>
+            <br>
+             </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="TSP"></label><br>
+            <input type="text" id="TSP" name="TSP" maxlength="50" required>
+            <br>
+	    </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="Emailid"></label><br>
+            <input type="text" id="Emailid"  name="Emailid" maxlength="50" required>
+            <br>
+	    </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="Port/New"></label><br>
+            <input type="text" id="PortorNew" name="PortorNew" maxlength="50" required>
+            <br>
+            </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="DateofPurchase"></label><br>
+            <input type="text" id="DateofPurchase"  name="DateofPurchase" maxlength="50" required>
+            <br>
+            </div>
+	 </td>
+	</tr>
+
+	<tr height="20">
+	 <td>
+
+	    <div id="name">
+                 <label for="S.No."></label><br>
+            <input type="number" id="S.No."  name="S.No." maxlength="4" required>
+            <br>
+        </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="NameofCustomer"></label><br>
+            <input type="text" id="NameofCustomer" name="NameofCustomer" maxlength="50" required>
+            <br>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="AadharNumber"></label><br>
+            <input type="number" id="AadharNumber"  name="AadharNumber" size="50" required>
+            <br>
+          </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="MobileNumber"></label><br>
+            <input type="number" id="MobileNumber"  name="MobileNumber" size="20" required>
+            <br>
+          </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="NewSimNumber"></label><br>
+            <input type="number" id="NewSimNumber" name="NewSimNumber" size="20" required>
+            <br>
+             </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="TSP"></label><br>
+            <input type="text" id="TSP" name="TSP" maxlength="50" required>
+            <br>
+	    </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="Emailid"></label><br>
+            <input type="text" id="Emailid" name="Emailid" maxlength="50" required>
+            <br>
+	    </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="Port/New"></label><br>
+            <input type="text" id="PortorNew" name="PortorNew" maxlength="50" required>
+            <br>
+            </div>
+	 </td>
+	 <td>
+	    <div id="name">
+            <label for="DateofPurchase"></label><br>
+            <input type="text" id="DateofPurchase"  name="DateofPurchase" maxlength="50" required>
+            <br>
+            </div>
+	 </td>
+	</tr>
+</table>
+   </div>
+   </div>
+
+
+
+
+
+
+  <br><br><br>
+   <footer class="container-fluid text-center">
+    <div class="footer-inline" >
+      <a href="http://www.dot.gov.in/websites-policies"> Website policies  </a>
+      <a href="http://www.dot.gov.in/download"> Download  </a>
+      <a href="http://www.dot.gov.in/working-hours"> Working Hours  </a>
+      <a href="http://www.dot.gov.in/feedback"> Feedback </a>
+    </div>
+  </footer>
+ </body>
+</html>

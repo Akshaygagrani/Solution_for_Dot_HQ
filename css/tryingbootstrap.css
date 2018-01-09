@@ -1,0 +1,61 @@
+.navbar-brand {
+  height: 120px;
+}
+
+.navbar-header h3:hover{
+  color: lightblue;
+}
+.navbar {
+      padding-top: 0px;
+      padding-bottom: 0px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+
+.navbar-nav  li a:hover {
+      color: #1abc9c !important;
+}
+
+.navbar-nav a{
+  color: white;
+  text-decoration-line: underline;
+}
+
+body {
+  background-image: url("background5.jpg");
+  background-repeat: no-repeat;
+  background-size: 1370px 750px;
+}
+
+input:focus {
+  border: 3px solid tomato;
+  border-color: white;
+  background-color: lightblue;
+}
+
+footer a:hover{
+  padding: 5px;
+  font-size: 20px;
+  color: lightblue;
+}
+
+footer a{
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+}
+
+input {
+  box-sizing: border-box;
+  border-color: white;
+}
+.control-label h4{
+  color: white;
+}
+
+.control-label h4:hover{
+  color: black;
+}

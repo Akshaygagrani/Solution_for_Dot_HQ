@@ -1,0 +1,144 @@
+
+body {
+  background-image: url("up.png");
+  background-repeat: no-repeat;
+  background-size: 1370px 750px;
+}
+
+#header{
+  padding: 10px;
+  text-decoration: underline;
+}
+#form {
+  text-align: center;
+  height: 40%
+  min-width:40%;
+}
+
+fieldset {
+  background-color: #FAFAF1;
+  border-color: white;
+  border-style: none;
+  width: 40%px;
+  height: 475px;
+  position: fixed;
+  top: 6%;
+  left: 35%;
+  text-align: left;
+  padding: 20px;
+}
+
+.cancelbtn{
+  position: relative;
+  left: 20%;
+  display: inline-block;
+  background: steelblue;
+  border-style: none;
+  padding: 8px;
+  color: white;
+}
+
+.signupbtn{
+  position: relative;
+  bottom: 30%;
+  left: 40%;
+  background: steelblue;
+  border-style: none;
+  padding: 8px;
+  color: white;
+}
+
+legend {
+  color: black;
+  display: inline-block;
+  width: 150px;
+  border: black;
+  position: absolute;
+  top: 0%;
+  left: 33%;
+  font-family: 'Open Sans', sans-serif;
+  padding: ;
+  text-decoration: underline
+}
+
+#container{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+}
+
+#header h1 {
+    color: #006bb6;
+    font-weight: bolder;
+    height: 130px;
+    width: 95%;
+    min-width: 40%;
+    position: absolute;
+    top: 2.7%;
+    left: 5%;
+    font-size: 30px;
+    padding:3px 3px 3px 6px;
+    border-left:3px solid #c6c1b8;
+    background:#f2efe9;
+    display:block;
+}
+#check {
+  padding: 10px;
+}
+
+#footer a {
+	color: white;
+  font-size: 25px;
+}
+
+#footer a:hover{
+	color: black;
+  border: none;
+  background-color: white;
+  text-decoration: underline;
+}
+
+#footer{
+  background-color: #2F2B30;
+  position: fixed;
+  bottom: 0;
+  left: 20%;
+}
+
+label {
+  color: steelblue;
+  font-size: 17px;
+  text-decoration: underline;
+}
+button:hover {
+  background: steelblue;
+  border-style: none;
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+label b:hover {
+  background: steelblue;
+  border-style: none;
+  padding: 5px;
+  color: white;
+
+}
+input:focus {
+    background-color: lightblue;
+}
+
+#name {
+  padding: 10px;
+}
+
+input {
+  position: absolute;
+  right: 25%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  border-color: lightblue;
+  padding: 5px;
+}
