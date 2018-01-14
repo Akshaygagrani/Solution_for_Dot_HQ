@@ -1,2 +1,37 @@
-# Solution_for_Dot_HQ
-The present guidelines of DoT HQ do not allow more than nine mobile connections to an individual. Thus, it implies that even the connections have been obtained from different Telecom Service Providers (TSPs), the cumulative count should not exceed nine. Since there is no connectivity among the different TSPs’ subscriber databases therefore the TSPs are bound to limit the query within their own database to ensure that the new connection which is going to be activated does not cross the above count. There is no mechanism with TSP to check the no. of connections working for that individual with other TSPs. So here is a web solution to do this with esa
+## Welcome to GitHub Pages
+
+You can use the [editor on GitHub](https://github.com/Akshaygagrani/Solution_for_Dot_HQ/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+### Markdown
+
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Akshaygagrani/Solution_for_Dot_HQ/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
